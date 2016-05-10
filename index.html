@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' />
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+        <link rel='stylesheet' href='style.css' />
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <h1>Weather Statistics</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <form class="form">
+                        <div class="col-xs-8 col-md-10">
+                            <input id="comment" type="text" placeholder="type in a zip code">
+                        </div>
+                        <div class="col-xs-4 col-md-2">
+                            <button type="submit" class="btn">enter</button>
+                        </div>
+                    </form>
+                </div>
+
+                <p id="demo">Hello</p>
+                <div id="tester" style="width: 900px;;height:500px;"></div>
+                <div id="tester2" style="width: 900px;;height:500px;"></div>
+                <p id="compare"></p>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
+
